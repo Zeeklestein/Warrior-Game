@@ -11,7 +11,7 @@ namespace Warrior_Game
                 //Warrior 1 attacks warrior 2. Check result
 
                 //if warrior 2 is dead then break
-                if(CheckResult(warrior1, warrior2) == "dead")
+                if(CheckResult(warrior1.Health, warrior2.Health) == "dead")
                 {
                     break;
                 }
@@ -28,7 +28,7 @@ namespace Warrior_Game
             }
         }
 
-        public static string CheckResult(Warrior warrior1, Warrior warrior2)
+        public static string CheckResult(double warrior1, double warrior2)
         {
             return "dead";
         }
