@@ -10,7 +10,7 @@ namespace Warrior_Game
         public double BlockValue{ get; set;}  = 0;
 
     
-//-----------User enter inputs name--------------
+//-----------User inputs Warrior name--------------
 
         //TODO
 
