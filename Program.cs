@@ -6,7 +6,8 @@ namespace Warrior_Game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Warrior warrior1 = new Warrior("Smash", 100, 120, 50);
+            Warrior warrior2 = new Warrior("Bash", 100, 120, 50);
         }
     }
 }
