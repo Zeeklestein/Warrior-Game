@@ -6,8 +6,8 @@ namespace Warrior_Game
     {
         public string WarriorName { get; set; } = "No Name";
         public double Health { get; set; } = 0;
-        public double AttackValue{ get; set; } = 0;
-        public double BlockValue{ get; set;}  = 0;
+        public double AttackMax{ get; set; } = 0;
+        public double BlockMax{ get; set;}  = 0;
 
     
 //-----------User inputs Warrior name--------------
@@ -21,26 +21,24 @@ namespace Warrior_Game
         //Generate a random attack value from 1 to warrior's max attack value
         public double Attack()
         {
-            double attackRnd = 0;
-            attackRnd = rnd.Next(1, (int)AttackValue);
-            return attackRnd;
+            return rnd.Next(1, (int)AttackMax);
         }
 
         //Generate a random block value from 1 to warrior's max block value
         public double Block()
         {
             //double blockRnd = 0;
-            return rnd.Next(1, (int)BlockValue);
+            return rnd.Next(1, (int)BlockMax);
         }
 
 
 //-----------Add a constructor--------------
-        public Warrior(string warriorName, double health, double attackValue, double blockValue)
+        public Warrior(string warriorName, double health, double attackMax, double blockMax)
             {
                 WarriorName = warriorName;
                 Health = health;
-                AttackValue = attackValue;
-                BlockValue = blockValue;
+                AttackMax = attackMax;
+                BlockMax = blockMax;
             }
 
     }

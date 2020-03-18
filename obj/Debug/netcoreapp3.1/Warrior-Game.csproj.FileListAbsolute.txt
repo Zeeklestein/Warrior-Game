@@ -1,0 +1,11 @@
+/Users/benszekely/Desktop/Github Projects/Warrior-Game/bin/Debug/netcoreapp3.1/Warrior-Game
+/Users/benszekely/Desktop/Github Projects/Warrior-Game/bin/Debug/netcoreapp3.1/Warrior-Game.deps.json
+/Users/benszekely/Desktop/Github Projects/Warrior-Game/bin/Debug/netcoreapp3.1/Warrior-Game.runtimeconfig.json
+/Users/benszekely/Desktop/Github Projects/Warrior-Game/bin/Debug/netcoreapp3.1/Warrior-Game.runtimeconfig.dev.json
+/Users/benszekely/Desktop/Github Projects/Warrior-Game/bin/Debug/netcoreapp3.1/Warrior-Game.dll
+/Users/benszekely/Desktop/Github Projects/Warrior-Game/bin/Debug/netcoreapp3.1/Warrior-Game.pdb
+/Users/benszekely/Desktop/Github Projects/Warrior-Game/obj/Debug/netcoreapp3.1/Warrior-Game.csprojAssemblyReference.cache
+/Users/benszekely/Desktop/Github Projects/Warrior-Game/obj/Debug/netcoreapp3.1/Warrior-Game.AssemblyInfoInputs.cache
+/Users/benszekely/Desktop/Github Projects/Warrior-Game/obj/Debug/netcoreapp3.1/Warrior-Game.AssemblyInfo.cs
+/Users/benszekely/Desktop/Github Projects/Warrior-Game/obj/Debug/netcoreapp3.1/Warrior-Game.dll
+/Users/benszekely/Desktop/Github Projects/Warrior-Game/obj/Debug/netcoreapp3.1/Warrior-Game.pdb

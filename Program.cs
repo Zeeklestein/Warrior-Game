@@ -6,8 +6,10 @@ namespace Warrior_Game
     {
         static void Main(string[] args)
         {
-            Warrior warrior1 = new Warrior("Smash", 100, 120, 50);
-            Warrior warrior2 = new Warrior("Bash", 100, 120, 50);
+            Warrior smash = new Warrior("Smash", 1000, 120, 20);
+            Warrior bash = new Warrior("Bash", 1000, 120, 60);
+
+            Battle.StartFight(smash, bash);
         }
     }
 }
